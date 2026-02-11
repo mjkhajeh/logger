@@ -1,0 +1,17 @@
+{
+  "name": "mj/logger",
+  "description": "Lightweight logger for WordPress themes and plugins.",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "psr/log": "^1.1"
+  },
+  "autoload": {
+    "files": [
+      "src/PsrLog.php"
+    ],
+    "psr-4": {
+      "MJ\\": "src/"
+    }
+  }
+}
